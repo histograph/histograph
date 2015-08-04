@@ -9,7 +9,7 @@ Historical geocoder, built with [Neo4j](http://neo4j.com/) and [Elasticsearch](h
 | Core         | [histograph/core](https://github.com/histograph/core)                 | Consumes Redis queue and syncs Neo4j and Elasticsearch
 | API          | [histograph/api](https://github.com/histograph/api)                   | Search and dataset API
 | Schemas      | [histograph/schemas](https://github.com/histograph/schemas)           | Ontology and [JSON schemas](http://json-schema.org/)
-| Config       | [histograph/config](https://github.com/histograph/config)             | Configuration files
+| Config       | [histograph/config](https://github.com/histograph/config)             | Configuration module
 | Neo4j Plugin | [histograph/neo4j-plugin](https://github.com/histograph/neo4j-plugin) | Server plugin for Neo4j for certain graph queries
 | Viewer       | [histograph/viewer](https://github.com/histograph/viewer)             | Map viewer, [React](http://facebook.github.io/react/) + [Leaflet](http://leafletjs.com/) + [D3.js](http://d3js.org/)
 | Data         | [histograph/data](https://github.com/histograph/data)                 | Scripts to download and generate Histograph datasets from selection of sources
