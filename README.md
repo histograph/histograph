@@ -6,12 +6,12 @@ Historical geocoder, built with [Neo4j](http://neo4j.com/) and [Elasticsearch](h
 
 | Name           | GitHub                                                                | Description
 |:---------------|:----------------------------------------------------------------------|:-------------------------------------------------------------
-| Core           | [histograph/core](https://github.com/histograph/core)                 | Consumes Redis queue and syncs Neo4j and Elasticsearch
+| Core           | [histograph/core](https://github.com/histograph/core)                 | Consumes Redis queue and calls Graphmalizer
 | API            | [histograph/api](https://github.com/histograph/api)                   | Search API
 | IO             | [histograph/api](https://github.com/histograph/io)                    | Input/output API
 | Schemas        | [histograph/schemas](https://github.com/histograph/schemas)           | Ontology and [JSON schemas](http://json-schema.org/)
-| Config         | [histograph/config](https://github.com/histograph/config)             | Configuration files
-| Neo4j plugin   | [histograph/neo4j-plugin](https://github.com/histograph/neo4j-plugin) | Server plugin for Neo4j for certain graph queries
+| Config         | [histograph/config](https://github.com/histograph/config)             | Configuration module
+| Neo4j plugin   | [histograph/neo4j-plugin](https://github.com/histograph/neo4j-plugin) | Server plugin for Neo4j for complex graph queries needed by search API
 | Viewer         | [histograph/viewer](https://github.com/histograph/viewer)             | Map viewer, [React](http://facebook.github.io/react/) + [Leaflet](http://leafletjs.com/) + [D3.js](http://d3js.org/)
 | Data           | [histograph/data](https://github.com/histograph/data)                 | Scripts to download and generate Histograph datasets from selection of sources (GeoNames, TGN, ...)
 | Import         | [histograph/import](https://github.com/histograph/import)             | Scripts to import data into Histograph API
@@ -23,7 +23,7 @@ Historical geocoder, built with [Neo4j](http://neo4j.com/) and [Elasticsearch](h
 
 ## Graphmalizer
 
-Histograph uses Graphmalizer to convert the stream of messages from the message queue (create/delete/update of PITs and relations) to a graph in Neo4j.
+Histograph uses Graphmalizer to convert a stream of messages (create/delete/update of PITs and relations) to a graph in Neo4j.
 
 | Name              | GitHub                                                                              | Description
 |:------------------|:------------------------------------------------------------------------------------|:-------------------------------------------------------------
