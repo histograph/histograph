@@ -15,11 +15,11 @@ Historical geocoder, built with [Neo4j](http://neo4j.com/) and [Elasticsearch](h
 | Viewer         | [histograph/viewer](https://github.com/histograph/viewer)             | Map viewer, [React](http://facebook.github.io/react/) + [Leaflet](http://leafletjs.com/) + [D3.js](http://d3js.org/)
 | Data           | [histograph/data](https://github.com/histograph/data)                 | Scripts to download and generate Histograph datasets from selection of sources (GeoNames, TGN, ...)
 | Import         | [histograph/import](https://github.com/histograph/import)             | Scripts to import data into Histograph API
-| Stats          | [histograph/api](https://github.com/histograph/stats)                 | Runs set of queries on a specified interval to compute data statistics
-| Website        | [histograph/api](https://github.com/histograph/histograph.github.io)  | Histograph website on [histograph.io](http://histograph.io)
-| Fuzzy dates    | [histograph/api](https://github.com/histograph/fuzzy-dates)           | Parses dates, years, and ranges
-| URI normalizer | [histograph/api](https://github.com/histograph/uri-normalizer)        | Converts URIs and Histograph IDs to URNs
-| Tests          | [histograph/api](https://github.com/histograph/tests)                 | Test suite for Histograph API
+| Stats          | [histograph/stats](https://github.com/histograph/stats)               | Runs set of queries on a specified interval to compute data statistics
+| Website        | [histograph/histograph.github.io](https://github.com/histograph/histograph.github.io) | Histograph website on [histograph.io](http://histograph.io)
+| Fuzzy dates    | [histograph/fuzzy-dates](https://github.com/histograph/fuzzy-dates)   | Parses dates, years, and ranges
+| URI normalizer | [histograph/uri-normalizer](https://github.com/histograph/uri-normalizer) | Converts URIs and Histograph IDs to URNs
+| Tests          | [histograph/tests](https://github.com/histograph/tests)               | Test suite for Histograph API
 
 ## Graphmalizer
 
