@@ -33,6 +33,7 @@ Histograph uses Graphmalizer to convert a stream of messages (create/delete/upda
 
 | Name            | GitHub                                                                      | Description
 |:----------------|:----------------------------------------------------------------------------|:--------------------------------------------------------------------
+| Installation    | [histograph/installation](https://github.com/histograph/installation)       | Docs on installing Histograph on your laptop or a server
 | AWS tools       | [histograph/aws](https://github.com/histograph/aws)                         | Tools and scripts for deploying Histograph on Amazon Web Services
 | Quickstart      | [histograph/quickstart](https://github.com/histograph/quickstart)           | Quick start scripts for Histograph
 | PITs to GeoJSON | [histograph/pits-to-geojson](https://github.com/histograph/pits-to-geojson) | Convert PIT NDJSON to GeoJSON file
