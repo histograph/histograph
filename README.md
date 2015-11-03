@@ -8,7 +8,7 @@ Historical geocoder, built with [Neo4j](http://neo4j.com/) and [Elasticsearch](h
 |:---------------|:----------------------------------------------------------------------|:-------------------------------------------------------------
 | Core           | [histograph/core](https://github.com/histograph/core)                 | Consumes Redis queue and calls Graphmalizer
 | API            | [histograph/api](https://github.com/histograph/api)                   | Search API
-| IO             | [histograph/api](https://github.com/histograph/io)                    | Input/output API
+| IO             | [histograph/io](https://github.com/histograph/io)                    | Input/output API
 | Schemas        | [histograph/schemas](https://github.com/histograph/schemas)           | Ontology and [JSON schemas](http://json-schema.org/)
 | Config         | [histograph/config](https://github.com/histograph/config)             | Configuration module
 | Neo4j plugin   | [histograph/neo4j-plugin](https://github.com/histograph/neo4j-plugin) | Server plugin for Neo4j for complex graph queries needed by search API
@@ -36,9 +36,9 @@ Histograph uses Graphmalizer to convert a stream of messages (create/delete/upda
 | AWS tools       | [histograph/aws](https://github.com/histograph/aws)                         | Tools and scripts for deploying Histograph on Amazon Web Services
 | Quickstart      | [histograph/quickstart](https://github.com/histograph/quickstart)           | Quick start scripts for Histograph
 | PITs to GeoJSON | [histograph/pits-to-geojson](https://github.com/histograph/pits-to-geojson) | Convert PIT NDJSON to GeoJSON file
-| Reasoner        | [histograph/reasoner](https://github.com/histograph/reasoner)               | Finds matching PITs from different datasets and creates links between them
-| Relationizer    | [histograph/relationizer](https://github.com/histograph/relationizer)       | Web interface to find PITs and easily create relations between them
-| Stats viewer    | [histograph/stats-viewer](https://github.com/histograph/stats-viewer)       | Visualizations for JSON results of stats module
+| Reasoner        | [histograph/reasoner](https://github.com/histograph/reasoner)               | Finds matching PITs from different datasets and creates links between them (work in progress)
+| Relationizer    | [histograph/relationizer](https://github.com/histograph/relationizer)       | Web interface to find PITs and easily create relations between them (work in progress)
+| Stats viewer    | [histograph/stats-viewer](https://github.com/histograph/stats-viewer)       | Visualizations for JSON results of stats module (work in progress)
 | Cypher examples | [histograph/cypher-examples](https://github.com/histograph/cypher-examples) | Cypher query examples
 
 ## The MIT License (MIT)
