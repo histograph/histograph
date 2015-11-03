@@ -13,13 +13,19 @@ Historical geocoder, built with [Neo4j](http://neo4j.com/) and [Elasticsearch](h
 | Config         | [histograph/config](https://github.com/histograph/config)             | Configuration module
 | Neo4j plugin   | [histograph/neo4j-plugin](https://github.com/histograph/neo4j-plugin) | Server plugin for Neo4j for complex graph queries needed by search API
 | Viewer         | [histograph/viewer](https://github.com/histograph/viewer)             | Map viewer, [React](http://facebook.github.io/react/) + [Leaflet](http://leafletjs.com/) + [D3.js](http://d3js.org/)
-| Data           | [histograph/data](https://github.com/histograph/data)                 | Scripts to download and generate Histograph datasets from selection of sources (GeoNames, TGN, ...)
+| Data           | [histograph/data](https://github.com/histograph/data)                 | Scripts to download and generate Histograph datasets from selection of sources: [GeoNames](http://www.geonames.org/), [TGN](http://www.getty.edu/research/tools/vocabularies/tgn/), [BAG](http://www.basisregistratiesienm.nl/basisregistraties/adressen-en-gebouwen), [NWB](https://data.overheid.nl/data/dataset/nationaal-wegen-bestand-wegen-wegvakken)
 | Import         | [histograph/import](https://github.com/histograph/import)             | Scripts to import data into Histograph API
 | Stats          | [histograph/stats](https://github.com/histograph/stats)               | Runs set of queries on a specified interval to compute data statistics
 | Website        | [histograph/histograph.github.io](https://github.com/histograph/histograph.github.io) | Histograph website on [histograph.io](http://histograph.io)
 | Fuzzy dates    | [histograph/fuzzy-dates](https://github.com/histograph/fuzzy-dates)   | Parses dates, years, and ranges
 | URI normalizer | [histograph/uri-normalizer](https://github.com/histograph/uri-normalizer) | Converts URIs and Histograph IDs to URNs
 | Tests          | [histograph/tests](https://github.com/histograph/tests)               | Test suite for Histograph API
+
+## Data
+
+| Name              | GitHub                                                           | Description
+|:------------------|:-----------------------------------------------------------------|:-------------------------------------------------------------
+| Concordances | [histograph/concordances](https://github.com/histograph/concordances) | Equivalence relations between places in the Netherlands from different data sources: [GeoNames](http://www.geonames.org/), [TGN](http://www.getty.edu/research/tools/vocabularies/tgn/), [BAG](http://www.basisregistratiesienm.nl/basisregistraties/adressen-en-gebouwen) and [Who's on First](http://whosonfirst.mapzen.com/)
 
 ## Graphmalizer
 
